@@ -1,0 +1,126 @@
+[2026-06-08 20:36:16.027] [INFO] [Logger] Лог-файл очищен
+[2026-06-08 20:36:20.708] [INFO] [MainFrame] Открытие отладочной консоли
+[2026-06-08 20:38:07.972] [INFO] [Main] Запуск приложения 'Дневник питания'
+[2026-06-08 20:38:07.973] [INFO] [Main] Версия: 1.0
+[2026-06-08 20:38:07.975] [INFO] [Main] Java версия: 26.0.1
+[2026-06-08 20:38:07.978] [DEBUG] [Main] OS: Windows 11 10.0
+[2026-06-08 20:38:07.979] [DEBUG] [Main] Working directory: C:\Users\Danya_Mertv\IdeaProjects\FoodDiary
+[2026-06-08 20:38:08.014] [INFO] [Main] Запуск графического интерфейса
+[2026-06-08 20:38:08.016] [INFO] [DatabaseDebug] Проверка целостности базы данных...
+[2026-06-08 20:38:08.279] [INFO] [DatabaseDebug] База данных в порядке ✓
+[2026-06-08 20:38:08.280] [INFO] [DatabaseDebug] ========== ИНФОРМАЦИЯ О БАЗЕ ДАННЫХ ==========
+[2026-06-08 20:38:08.282] [DEBUG] [DatabaseDebug] Таблица user: id(INTEGER) name(TEXT) age(INTEGER) weight(REAL) height(REAL) gender(TEXT) activity_level(TEXT) 
+[2026-06-08 20:38:08.283] [DEBUG] [DatabaseDebug] Таблица products: id(INTEGER) name(TEXT) calories(REAL) protein(REAL) fat(REAL) carbs(REAL) 
+[2026-06-08 20:38:08.284] [DEBUG] [DatabaseDebug] Таблица meals: id(INTEGER) date(TEXT) product_id(INTEGER) grams(REAL) 
+[2026-06-08 20:38:08.286] [INFO] [DatabaseDebug] Пользователи: 1
+[2026-06-08 20:38:08.287] [INFO] [DatabaseDebug] Продукты: 8
+[2026-06-08 20:38:08.288] [INFO] [DatabaseDebug] Приёмы пищи: 4
+[2026-06-08 20:38:08.289] [INFO] [DatabaseHelper] Инициализация базы данных
+[2026-06-08 20:38:08.290] [DEBUG] [Performance] Начало операции: DatabaseInit
+[2026-06-08 20:38:08.291] [DEBUG] [DatabaseHelper] Создание таблиц
+[2026-06-08 20:38:08.292] [INFO] [DatabaseHelper] Таблицы успешно созданы/проверены
+[2026-06-08 20:38:08.292] [DEBUG] [DatabaseHelper] Инициализация продуктов по умолчанию
+[2026-06-08 20:38:08.334] [DEBUG] [DatabaseHelper] Продукты по умолчанию добавлены
+[2026-06-08 20:38:08.339] [DEBUG] [Performance] Операция 'DatabaseInit' выполнена за 45 мс
+[2026-06-08 20:38:08.342] [DEBUG] [Performance] Начало операции: getAllProducts
+[2026-06-08 20:38:08.344] [DEBUG] [DatabaseHelper] Загрузка всех продуктов
+[2026-06-08 20:38:08.352] [INFO] [DatabaseHelper] Загружено продуктов: 8
+[2026-06-08 20:38:08.352] [DEBUG] [Performance] Операция 'getAllProducts' выполнена за 10 мс
+[2026-06-08 20:38:08.353] [DEBUG] [DatabaseDebug] Примеры продуктов (первые 5):
+[2026-06-08 20:38:08.354] [DEBUG] [DatabaseDebug]   1. Гречка - 132 ккал/100г
+[2026-06-08 20:38:08.355] [DEBUG] [DatabaseDebug]   2. Куриная грудка - 165 ккал/100г
+[2026-06-08 20:38:08.355] [DEBUG] [DatabaseDebug]   3. Молоко - 42 ккал/100г
+[2026-06-08 20:38:08.355] [DEBUG] [DatabaseDebug]   4. Овсянка - 68 ккал/100г
+[2026-06-08 20:38:08.356] [DEBUG] [DatabaseDebug]   5. Рис - 130 ккал/100г
+[2026-06-08 20:38:08.356] [DEBUG] [Performance] Начало операции: getMealsForDate
+[2026-06-08 20:38:08.356] [DEBUG] [DatabaseHelper] Загрузка приёмов пищи за дату: 2026-06-08
+[2026-06-08 20:38:08.360] [INFO] [DatabaseHelper] Загружено приёмов пищи: 4
+[2026-06-08 20:38:08.361] [DEBUG] [Performance] Операция 'getMealsForDate' выполнена за 5 мс
+[2026-06-08 20:38:08.361] [DEBUG] [DatabaseDebug] Приёмы пищи за сегодня: 4
+[2026-06-08 20:38:08.362] [DEBUG] [DatabaseDebug]   - Гречка: 233г (308 ккал)
+[2026-06-08 20:38:08.362] [DEBUG] [DatabaseDebug]   - Хлеб: 32г (85 ккал)
+[2026-06-08 20:38:08.363] [DEBUG] [DatabaseDebug]   - Гречка: 132г (174 ккал)
+[2026-06-08 20:38:08.363] [DEBUG] [DatabaseDebug]   - Гречка: 234г (309 ккал)
+[2026-06-08 20:38:08.429] [INFO] [MainFrame] Инициализация главного окна
+[2026-06-08 20:38:08.429] [DEBUG] [Performance] Начало операции: MainFrameInit
+[2026-06-08 20:38:08.430] [DEBUG] [Performance] Начало операции: getUser
+[2026-06-08 20:38:08.430] [DEBUG] [DatabaseHelper] Загрузка профиля пользователя
+[2026-06-08 20:38:08.432] [INFO] [DatabaseHelper] Профиль загружен: Даниил
+[2026-06-08 20:38:08.432] [DEBUG] [Performance] Операция 'getUser' выполнена за 2 мс
+[2026-06-08 20:38:08.432] [DEBUG] [MainFrame] Текущая дата: 2026-06-08
+[2026-06-08 20:38:08.433] [DEBUG] [MainFrame] Пользователь: Даниил
+[2026-06-08 20:38:08.433] [DEBUG] [MainFrame] Создание компонентов интерфейса
+[2026-06-08 20:38:08.462] [DEBUG] [MainFrame] Интерфейс создан
+[2026-06-08 20:38:08.462] [DEBUG] [Performance] Начало операции: refreshData
+[2026-06-08 20:38:08.463] [DEBUG] [MainFrame] Обновление данных для даты: 2026-06-08
+[2026-06-08 20:38:08.469] [DEBUG] [Performance] Начало операции: getMealsForDate
+[2026-06-08 20:38:08.469] [DEBUG] [DatabaseHelper] Загрузка приёмов пищи за дату: 2026-06-08
+[2026-06-08 20:38:08.471] [INFO] [DatabaseHelper] Загружено приёмов пищи: 4
+[2026-06-08 20:38:08.471] [DEBUG] [Performance] Операция 'getMealsForDate' выполнена за 2 мс
+[2026-06-08 20:38:08.472] [DEBUG] [MainFrame] Загружено записей: 4
+[2026-06-08 20:38:08.473] [DEBUG] [Performance] Операция 'refreshData' выполнена за 11 мс
+[2026-06-08 20:38:08.474] [DEBUG] [Performance] Операция 'MainFrameInit' выполнена за 45 мс
+[2026-06-08 20:38:08.474] [INFO] [MainFrame] Главное окно инициализировано
+[2026-06-08 20:38:08.709] [INFO] [Main] Приложение успешно запущено
+[2026-06-08 20:38:18.562] [INFO] [Main] Запуск приложения 'Дневник питания'
+[2026-06-08 20:38:18.563] [INFO] [Main] Версия: 1.0
+[2026-06-08 20:38:18.563] [INFO] [Main] Java версия: 26.0.1
+[2026-06-08 20:38:18.566] [DEBUG] [Main] OS: Windows 11 10.0
+[2026-06-08 20:38:18.566] [DEBUG] [Main] Working directory: C:\Users\Danya_Mertv\IdeaProjects\FoodDiary
+[2026-06-08 20:38:18.599] [INFO] [Main] Запуск графического интерфейса
+[2026-06-08 20:38:18.601] [INFO] [DatabaseDebug] Проверка целостности базы данных...
+[2026-06-08 20:38:18.867] [INFO] [DatabaseDebug] База данных в порядке ✓
+[2026-06-08 20:38:18.868] [INFO] [DatabaseDebug] ========== ИНФОРМАЦИЯ О БАЗЕ ДАННЫХ ==========
+[2026-06-08 20:38:18.870] [DEBUG] [DatabaseDebug] Таблица user: id(INTEGER) name(TEXT) age(INTEGER) weight(REAL) height(REAL) gender(TEXT) activity_level(TEXT) 
+[2026-06-08 20:38:18.871] [DEBUG] [DatabaseDebug] Таблица products: id(INTEGER) name(TEXT) calories(REAL) protein(REAL) fat(REAL) carbs(REAL) 
+[2026-06-08 20:38:18.872] [DEBUG] [DatabaseDebug] Таблица meals: id(INTEGER) date(TEXT) product_id(INTEGER) grams(REAL) 
+[2026-06-08 20:38:18.874] [INFO] [DatabaseDebug] Пользователи: 1
+[2026-06-08 20:38:18.875] [INFO] [DatabaseDebug] Продукты: 8
+[2026-06-08 20:38:18.876] [INFO] [DatabaseDebug] Приёмы пищи: 4
+[2026-06-08 20:38:18.877] [INFO] [DatabaseHelper] Инициализация базы данных
+[2026-06-08 20:38:18.878] [DEBUG] [Performance] Начало операции: DatabaseInit
+[2026-06-08 20:38:18.878] [DEBUG] [DatabaseHelper] Создание таблиц
+[2026-06-08 20:38:18.880] [INFO] [DatabaseHelper] Таблицы успешно созданы/проверены
+[2026-06-08 20:38:18.880] [DEBUG] [DatabaseHelper] Инициализация продуктов по умолчанию
+[2026-06-08 20:38:18.920] [DEBUG] [DatabaseHelper] Продукты по умолчанию добавлены
+[2026-06-08 20:38:18.922] [DEBUG] [Performance] Операция 'DatabaseInit' выполнена за 42 мс
+[2026-06-08 20:38:18.923] [DEBUG] [Performance] Начало операции: getAllProducts
+[2026-06-08 20:38:18.923] [DEBUG] [DatabaseHelper] Загрузка всех продуктов
+[2026-06-08 20:38:18.926] [INFO] [DatabaseHelper] Загружено продуктов: 8
+[2026-06-08 20:38:18.927] [DEBUG] [Performance] Операция 'getAllProducts' выполнена за 4 мс
+[2026-06-08 20:38:18.927] [DEBUG] [DatabaseDebug] Примеры продуктов (первые 5):
+[2026-06-08 20:38:18.928] [DEBUG] [DatabaseDebug]   1. Гречка - 132 ккал/100г
+[2026-06-08 20:38:18.929] [DEBUG] [DatabaseDebug]   2. Куриная грудка - 165 ккал/100г
+[2026-06-08 20:38:18.929] [DEBUG] [DatabaseDebug]   3. Молоко - 42 ккал/100г
+[2026-06-08 20:38:18.929] [DEBUG] [DatabaseDebug]   4. Овсянка - 68 ккал/100г
+[2026-06-08 20:38:18.930] [DEBUG] [DatabaseDebug]   5. Рис - 130 ккал/100г
+[2026-06-08 20:38:18.930] [DEBUG] [Performance] Начало операции: getMealsForDate
+[2026-06-08 20:38:18.930] [DEBUG] [DatabaseHelper] Загрузка приёмов пищи за дату: 2026-06-08
+[2026-06-08 20:38:18.934] [INFO] [DatabaseHelper] Загружено приёмов пищи: 4
+[2026-06-08 20:38:18.934] [DEBUG] [Performance] Операция 'getMealsForDate' выполнена за 4 мс
+[2026-06-08 20:38:18.935] [DEBUG] [DatabaseDebug] Приёмы пищи за сегодня: 4
+[2026-06-08 20:38:18.935] [DEBUG] [DatabaseDebug]   - Гречка: 233г (308 ккал)
+[2026-06-08 20:38:18.936] [DEBUG] [DatabaseDebug]   - Хлеб: 32г (85 ккал)
+[2026-06-08 20:38:18.936] [DEBUG] [DatabaseDebug]   - Гречка: 132г (174 ккал)
+[2026-06-08 20:38:18.937] [DEBUG] [DatabaseDebug]   - Гречка: 234г (309 ккал)
+[2026-06-08 20:38:18.995] [INFO] [MainFrame] Инициализация главного окна
+[2026-06-08 20:38:18.996] [DEBUG] [Performance] Начало операции: MainFrameInit
+[2026-06-08 20:38:18.996] [DEBUG] [Performance] Начало операции: getUser
+[2026-06-08 20:38:18.996] [DEBUG] [DatabaseHelper] Загрузка профиля пользователя
+[2026-06-08 20:38:18.998] [INFO] [DatabaseHelper] Профиль загружен: Даниил
+[2026-06-08 20:38:18.998] [DEBUG] [Performance] Операция 'getUser' выполнена за 2 мс
+[2026-06-08 20:38:18.999] [DEBUG] [MainFrame] Текущая дата: 2026-06-08
+[2026-06-08 20:38:18.999] [DEBUG] [MainFrame] Пользователь: Даниил
+[2026-06-08 20:38:18.999] [DEBUG] [MainFrame] Создание компонентов интерфейса
+[2026-06-08 20:38:19.026] [DEBUG] [MainFrame] Интерфейс создан
+[2026-06-08 20:38:19.026] [DEBUG] [Performance] Начало операции: refreshData
+[2026-06-08 20:38:19.027] [DEBUG] [MainFrame] Обновление данных для даты: 2026-06-08
+[2026-06-08 20:38:19.033] [DEBUG] [Performance] Начало операции: getMealsForDate
+[2026-06-08 20:38:19.033] [DEBUG] [DatabaseHelper] Загрузка приёмов пищи за дату: 2026-06-08
+[2026-06-08 20:38:19.035] [INFO] [DatabaseHelper] Загружено приёмов пищи: 4
+[2026-06-08 20:38:19.035] [DEBUG] [Performance] Операция 'getMealsForDate' выполнена за 2 мс
+[2026-06-08 20:38:19.036] [DEBUG] [MainFrame] Загружено записей: 4
+[2026-06-08 20:38:19.037] [DEBUG] [Performance] Операция 'refreshData' выполнена за 11 мс
+[2026-06-08 20:38:19.037] [DEBUG] [Performance] Операция 'MainFrameInit' выполнена за 41 мс
+[2026-06-08 20:38:19.038] [INFO] [MainFrame] Главное окно инициализировано
+[2026-06-08 20:38:19.246] [INFO] [Main] Приложение успешно запущено
